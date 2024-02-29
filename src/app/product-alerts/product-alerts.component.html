@@ -1,0 +1,7 @@
+<p *ngIf ="product && product.price > 700">
+    <button>
+        Notify me
+    </button>
+    <app-product-alerts [product] = "product">
+    </app-product-alerts>
+</p>
